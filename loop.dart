@@ -59,10 +59,16 @@ void main() {
   // }
 
   //ELEMENTS OF LIST THAT ARE LESS THAN 5
-  var a = [1, 1, 2, 3, 4, 5, 8, 13, 21, 34, 55, 89, 1];
-  for (var i = 0; i < a.length; i++) {
-    if (a[i] < 5) {
-      print(a[i]);
-    }
-  }
+  // var a = [1, 1, 2, 3, 4, 5, 8, 13, 21, 34, 55, 89, 1];
+  // for (var i = 0; i < a.length; i++) {
+  //   if (a[i] < 5) {
+  //     print(a[i]);
+  //   }
+  // }
+
+  //first and last element
+  var e = [5, 10, 15, 20, 25];
+  print(e[0]);
+  var a = e.length - 1;
+  print(e[a]);
 }
