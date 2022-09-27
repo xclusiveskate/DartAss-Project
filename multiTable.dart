@@ -5,7 +5,7 @@ void main() {
   List myConst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   var input = int.parse(stdin.readLineSync()!);
   print("     ");
-  for (var i = 1; i < myConst.length; i++) {
+  for (var i = 0; i < myConst.length; i++) {
     print(input * myConst[i]);
   }
     print("     ");
